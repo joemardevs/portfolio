@@ -1,6 +1,5 @@
 <template>
-  <main
-    class="text-gray-800 dark:text-gray-100 md:h-screen py-24 md:py-0 flex flex-col-reverse sm:flex-row items-center justify-center"
+  <main class="text-gray-800 dark:text-gray-100 h-screen flex flex-col-reverse sm:flex-row items-center justify-center"
     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <div class="sm:w-[500px] flex flex-col items-center md:items-start mt-6">
       <p class="text-gray-400">Hello,</p>
