@@ -1,5 +1,6 @@
 <template>
-  <main class="text-gray-800 dark:text-gray-100 h-screen flex flex-col-reverse sm:flex-row py-20 items-center"
+  <main
+    class="text-gray-800 dark:text-gray-100 h-screen flex flex-col-reverse sm:flex-row items-center py-10 pb-20 justify-end"
     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <div class="sm:w-[500px] flex flex-col items-center md:items-start mt-6">
       <p class="text-gray-400">Hello,</p>
@@ -20,7 +21,7 @@
         <Resume value="Resume" />
       </div>
     </div>
-    <div class="flex-1 flex justify-end" data-aos="flip-left" data-aos-anchor-placement="top-bottom"
+    <div class="flex-none md:flex-1 flex justify-end" data-aos="flip-left" data-aos-anchor-placement="top-bottom"
       data-aos-duration="1100">
       <img :src="Me" alt="joemar picture" class="sm:h-80 sm:w-80 h-56 w-56 rounded-full drop-shadow" />
     </div>
