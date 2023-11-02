@@ -6,10 +6,7 @@
         Projects
       </h1>
       <p class="mt-2 text-gray-400 text-center">
-        Discover a portfolio of diverse web design and development projects,
-        each exemplifying my commitment to creating visually captivating,
-        user-friendly websites. From inception to deployment and ongoing
-        maintenance, my work showcases a holistic approach to web solutions.
+        View my diverse portfolio of visually captivating, user-friendly web design and development projects.
       </p>
     </div>
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
