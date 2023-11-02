@@ -13,6 +13,7 @@
     <Projects />
     <Services />
     <Testimony />
+    <Contact />
   </main>
   <Footer />
 </template>
@@ -23,6 +24,7 @@ import Services from "./views/Services.vue";
 import Projects from "./views/Projects.vue";
 import Testimony from "./views/Testimony.vue"
 import Footer from "./components/Footer.vue";
+import Contact from "./components/Contact.vue";
 
 import { onMounted } from "vue";
 import AOS from "aos";

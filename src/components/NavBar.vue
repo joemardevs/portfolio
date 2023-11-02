@@ -1,33 +1,8 @@
 <template>
-  <nav class="flex items-center gap-6">
-    <!-- <RouterLink
-      :to="{ name: 'home' }"
-      class="text-gray-800 dark:text-gray-200 hover:text-purple-400 hover:dark:text-purple-400 hover:underline underline-offset-2"
-      >Home</RouterLink
-    >
-    <RouterLink
-      :to="{ name: 'services' }"
-      class="text-gray-800 dark:text-gray-200 hover:text-purple-400 hover:dark:text-purple-400 hover:underline underline-offset-2"
-      >Services</RouterLink
-    >
-    <RouterLink
-      to="/"
-      class="text-gray-800 dark:text-gray-200 hover:text-purple-400 hover:dark:text-purple-400 hover:underline underline-offset-2"
-      >Projects</RouterLink
-    >
-    <RouterLink
-      to="/"
-      class="text-gray-800 dark:text-gray-200 hover:text-purple-400 hover:dark:text-purple-400 hover:underline underline-offset-2"
-      >Testimony</RouterLink
-    >
-    <RouterLink
-      to="/"
-      class="text-gray-800 dark:text-gray-200 hover:text-purple-400 hover:dark:text-purple-400 hover:underline underline-offset-2"
-      >Contact</RouterLink
-    > -->
+  <nav class="flex items-center">
     <button @click="toggleTheme" type="button" class="toggle-dark">
-      <i class="fa-solid fa-sun w-6 h-6 hidden dark:block"></i>
-      <i class="fa-solid fa-moon w-6 h-6 dark:hidden"></i>
+      <i class="fa-solid fa-sun w-6 h-6 hidden dark:block dark:grid place-items-center"></i>
+      <i class="fa-solid fa-moon w-6 h-6 dark:hidden grid place-items-center"></i>
     </button>
   </nav>
 </template>

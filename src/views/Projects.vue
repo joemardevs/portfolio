@@ -72,8 +72,9 @@ const projects = [
       "A Decision Support System for Managing Behavioral Patterns of Faculty Members' Engagement in Research Activities.",
     badges: {
       laravel: "Laravel",
-      livewire: "Tailwind CSS",
+      livewire: "Livewire",
       alpinejs: "Alpine JS",
+      tailwindcss: "Tailwind CSS",
     }
   },
 ];
