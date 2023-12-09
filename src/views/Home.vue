@@ -1,14 +1,13 @@
 <template>
   <main
-    class="text-gray-800 dark:text-gray-100 md:h-screen py-40 md:py-0 flex flex-col-reverse sm:flex-row items-center justify-center"
+    class="text-gray-800 dark:text-gray-100 md:h-screen py-40 md:py-0 flex flex-col-reverse sm:flex-row items-center justify-center h-screen"
     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
     <div class="sm:w-[500px] flex flex-col items-center md:items-start mt-6">
-      <p class="text-gray-400">Hello,</p>
       <h1
-        class="text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-        I'm Joemar
+        class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:pb-2">
+        Joemar Palting
       </h1>
-      <h1 class="text-xl md:text-2xl font-bold mb-4 text-center md:text-left">
+      <h1 class="text-xl md:text-2xl font-bold mb-2 text-center md:text-left">
         <small class="text-gray-400">undergraduate</small><br />
         Full Stack Developer
       </h1>
