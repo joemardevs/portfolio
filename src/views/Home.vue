@@ -12,9 +12,9 @@
         <small class="text-gray-400">undergraduate</small><br />
         Full Stack Developer
       </h1>
-      <p class="md:px-44 sm:px-6 lg:px-0 text-gray-400 text-center md:text-left">
-        Hailing from the Philippines, I am a dedicated Full Stack Developer who
-        passionate about web app development.
+      <p class="text-gray-400 text-center md:text-left md:w-96">
+        I'm a full-stack developer based in Philippines. I have a passion for building web applications and solving
+        problems.
       </p>
       <div class="mt-6 flex gap-4">
         <LinkedIn value="LinkedIn" link="https://www.linkedin.com/in/joemarpalting/" />
@@ -23,7 +23,7 @@
     </div>
     <div class="flex-none md:flex-1 flex justify-end" data-aos="flip-left" data-aos-anchor-placement="top-bottom"
       data-aos-duration="1100">
-      <img :src="Me" alt="joemar picture" class="sm:h-80 sm:w-80 h-56 w-56 rounded-full drop-shadow" />
+      <img :src="Me" alt="joemar picture" class="sm:h-80 sm:w-80 h-56 w-56 hidden sm:block rounded-full drop-shadow" />
     </div>
   </main>
 </template>

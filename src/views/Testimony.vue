@@ -16,7 +16,7 @@
         <small class="text-center text-gray-400 italic mb-2">Please note that the individuals featured in these testimonials
             have provided their consent regarding whether they wish to be identified or remain anonymous.</small>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-            <Carousel class="w-screen sm:w-[600px]" :autoplay="2000" :wrap-around="true">
+            <Carousel class="w-screen sm:w-[600px]" :autoplay="4000" :wrap-around="true">
                 <Slide v-for="(testimony, index) in testimonies" :key="index">
                     <div
                         class="carousel__item w-96 h-48 py-6 px-10 flex flex-col justify-center border-2 border-gray-200 dark:border-gray-700 rounded-md text-center italic shadow">

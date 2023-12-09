@@ -10,7 +10,7 @@
       </p>
     </div>
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <Carousel class="w-screen sm:w-[600px]" :autoplay="2000" :wrap-around="true">
+      <Carousel class="w-screen sm:w-[600px]" :wrap-around="true">
         <Slide v-for="(project, index) in projects" :key="index">
           <div class="carousel__item">
             <h1 class="text-2xl font-semibold mt-10">{{ project.title }}</h1>
