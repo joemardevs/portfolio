@@ -11,7 +11,7 @@
         <small class="text-gray-400">undergraduate</small><br />
         Full Stack Developer
       </h1>
-      <p class="text-gray-400 text-center md:text-left md:w-96">
+      <p class="text-gray-400 text-center md:text-left md:w-96 w-72">
         I'm a full-stack developer based in Philippines. I have a passion for building web applications and solving
         problems.
       </p>

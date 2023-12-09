@@ -1,6 +1,6 @@
 <template>
-  <main class="font-poppins bg-gray-50 dark:bg-gray-800 px-10 sm:px-24 xl:px-[450px]">
-    <header>
+  <main class="font-poppins bg-gray-50 dark:bg-gray-800 px-10 sm:px-24 xl:px-[450px] w-full">
+    <header class="fixed z-10 bg-gray-50 dark:bg-gray-800 w-full inset-x-0 px-10 sm:px-24 xl:px-[450px]">
       <div class="text-gray-800 dark:text-gray-200 py-5 flex">
         <h1
           class="flex-1 text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
@@ -17,6 +17,7 @@
   </main>
   <Footer />
 </template>
+
 <script setup>
 import NavBar from "./components/NavBar.vue";
 import Home from "./views/Home.vue";
