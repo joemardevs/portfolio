@@ -38,6 +38,21 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 
 const testimonies = [
     {
+        fullName: "Angelo Padilla",
+        testimonyDescription:
+            "He's an excellent developer who is also quite accommodating. Communicating with him regarding the project was straightforward.",
+    },
+    {
+        fullName: "Klaude Mendoza",
+        testimonyDescription:
+            "Very responsive and easy to communicate with. Also, he can do the tasks quickly and is very experienced.",
+    },
+    {
+        fullName: "Y******",
+        testimonyDescription:
+            "He consistently demonstrate the code and its use. He exceeds my expectations and i can adapt easily.",
+    },
+    {
         fullName: "C***",
         testimonyDescription:
             "Accommodating developer. Can do works on time. Easy to communicate when we're asking about the system.",
