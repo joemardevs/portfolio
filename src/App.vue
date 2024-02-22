@@ -1,7 +1,7 @@
 <template>
-  <main class="font-poppins bg-gray-50 dark:bg-gray-800 px-10 sm:px-24 xl:px-[450px] w-full">
-    <header class="fixed z-10 bg-gray-50 dark:bg-gray-800 w-full inset-x-0 px-10 sm:px-24 xl:px-[450px]">
-      <div class="text-gray-800 dark:text-gray-200 py-5 flex">
+  <main class="w-full px-10 font-poppins bg-gray-50 dark:bg-gray-800 sm:px-24 xl:px-72">
+    <header class="fixed inset-x-0 z-10 w-full px-10 bg-gray-50 dark:bg-gray-800 sm:px-24 xl:px-72">
+      <div class="flex py-5 text-gray-800 dark:text-gray-200">
         <h1
           class="flex-1 text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           joemardevs

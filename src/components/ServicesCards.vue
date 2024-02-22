@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col md:flex-row items-center gap-4 py-12">
-    <div class="p-4 flex flex-col items-center gap-4 md:w-1/4 h-56" data-aos="flip-up"
+  <div class="flex flex-col items-center gap-4 py-12 md:flex-row">
+    <div class="flex flex-col items-center h-56 gap-4 p-4 md:w-1/4" data-aos="flip-up"
       data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <svg class="fill-gray-800 dark:fill-gray-200 w-20" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg class="w-20 fill-gray-800 dark:fill-gray-200" fill="none" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48">
         <g data-name="21-web designer">
           <path
@@ -26,9 +26,9 @@
         Creating visually appealing websites.
       </p>
     </div>
-    <div class="p-4 flex flex-col items-center gap-4 md:w-1/4 h-56" data-aos="flip-up"
+    <div class="flex flex-col items-center h-56 gap-4 p-4 md:w-1/4" data-aos="flip-up"
       data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <svg class="fill-gray-800 dark:fill-gray-200 w-20" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg class="w-20 fill-gray-800 dark:fill-gray-200" fill="none" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48">
         <g data-name="07-web development">
           <path
@@ -49,9 +49,9 @@
       <h1 class="font-semibold">Web Development</h1>
       <p class="text-center">Building websites and web applications.</p>
     </div>
-    <div class="p-4 flex flex-col items-center gap-4 md:w-1/4 h-56" data-aos="flip-up"
+    <div class="flex flex-col items-center h-56 gap-4 p-4 md:w-1/4" data-aos="flip-up"
       data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <svg class="fill-gray-800 dark:fill-gray-200 w-20" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg class="w-20 fill-gray-800 dark:fill-gray-200" fill="none" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48">
         <g data-name="06-browser">
           <path
@@ -70,9 +70,9 @@
       <h1 class="font-semibold">Web Deployment</h1>
       <p class="text-center">Launching websites for online access.</p>
     </div>
-    <div class="p-4 flex flex-col items-center gap-4 md:w-1/4 h-56" data-aos="flip-up"
+    <div class="flex flex-col items-center h-56 gap-4 p-4 md:w-1/4" data-aos="flip-up"
       data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-      <svg class="fill-gray-800 dark:fill-gray-200 w-20" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg class="w-20 fill-gray-800 dark:fill-gray-200" fill="none" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48">
         <g data-name="26-setting">
           <path

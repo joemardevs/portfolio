@@ -1,8 +1,8 @@
 <template>
   <nav class="flex items-center">
     <button @click="toggleTheme" type="button" class="toggle-dark">
-      <i class="fa-solid fa-sun w-6 h-6 hidden dark:grid place-items-center"></i>
-      <i class="fa-solid fa-moon w-6 h-6 dark:hidden grid place-items-center"></i>
+      <i class="hidden w-6 h-6 fa-solid fa-sun dark:grid place-items-center"></i>
+      <i class="grid w-6 h-6 fa-solid fa-moon dark:hidden place-items-center"></i>
     </button>
   </nav>
 </template>

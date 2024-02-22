@@ -1,11 +1,11 @@
 <template>
-  <div class="text-gray-800 dark:text-gray-100 flex flex-col justify-center items-center pb-16" data-aos="fade-up"
+  <div class="flex flex-col items-center justify-center pb-16 text-gray-800 dark:text-gray-100" data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
     <div class="flex flex-col items-center">
-      <h1 class="text-4xl border-b-2 border-pink-400 font-semibold">
+      <h1 class="text-4xl font-semibold border-b-2 border-pink-400">
         Projects
       </h1>
-      <p class="mt-2 text-gray-400 text-center">
+      <p class="mt-2 text-center text-gray-400">
         View my diverse portfolio of visually captivating, user-friendly web design and development projects.
       </p>
     </div>
@@ -13,7 +13,7 @@
       <Carousel class="w-screen sm:w-[600px]" :wrap-around="true">
         <Slide v-for="(project, index) in projects" :key="index">
           <div class="carousel__item">
-            <h1 class="text-2xl font-semibold mt-10">{{ project.title }}</h1>
+            <h1 class="mt-10 text-2xl font-semibold">{{ project.title }}</h1>
             <img :src="project.imgName" alt="" class="w-96 md:w-[500px] rounded-md drop-shadow-md mx-auto" />
             <div class="flex justify-center gap-2 py-2">
               <ProjectBadge v-for="badge in project.badges" :value="badge" />
@@ -66,10 +66,10 @@ const projects = [
     }
   },
   {
-    title: "Decision Support System",
+    title: "Research Management System",
     imgName: Project3,
     description:
-      "A Decision Support System for Managing Behavioral Patterns of Faculty Members' Engagement in Research Activities.",
+      "A Research Management System for Managing Behavioral Patterns of Faculty Members' Engagement in Research Activities.",
     badges: {
       laravel: "Laravel",
       livewire: "Livewire",
